@@ -23,7 +23,12 @@ const upload = multer({
   }
 });
 
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://leadqualityinspector.vercel.app"
+  ]
+}));
 app.use(express.json());
 
 app.get("/api/health", (_req, res) => {
