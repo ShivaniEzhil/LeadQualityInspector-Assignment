@@ -1,0 +1,5 @@
+﻿Company,Industry,Website,Email
+Acme Technologies,Software,https://acme.com,contact@acme.com
+Bright Solutions,Consulting,bright.example,hello@bright.com
+Acme Technologies,Software,https://www.acme.com,bad-email
+Missing Fields,,, 
