@@ -316,7 +316,9 @@ export default function App() {
 
       formData.append("file", selectedFile);
 
-      const response = await fetch("https://leadqualityinspector-api.onrender.com/api/audit", {
+      const apiUrl = import.meta.env.VITE_API_URL;
+
+      const response = await fetch(`${apiUrl}/api/audit`, {
 
         method: "POST",
 
