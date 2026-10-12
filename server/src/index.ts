@@ -26,7 +26,7 @@ const upload = multer({
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://leadqualityinspector.vercel.app"
+    "https://lead-quality-inspector.vercel.app"
   ]
 }));
 app.use(express.json());
